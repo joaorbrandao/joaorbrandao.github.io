@@ -78,7 +78,10 @@
                     <div class="intro-text">
                         <span class="name">João Brandão</span>
                         <hr class="star-light">
-                        <span class="skills">Student - Electrical Engineering and Computers - Telecommunications</span>
+                        <!-- Job -->
+                        <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span><span class="skills">Trainee @ Bosch Car Multimedia</span><br>
+                        <!-- Studies -->
+                        <span class="glyphicon glyphicon-education" aria-hidden="true"></span> <span class="skills">Electrical Engineering and Computers - Telecommunications</span>
                     </div>
                 </div>
             </div>
@@ -91,11 +94,21 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Portfolio</h2>
-                    <hr class="star-primary">
+                    <hr class="star-primary"><!--star-primary-->
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-6 col-sm-3 portfolio-item"><!-- col-sm-4 TRES COLUNAS -->
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/reput.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-6 col-sm-3 portfolio-item"><!-- col-sm-4 -->
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -105,7 +118,7 @@
                         <img src="img/portfolio/gdd.PNG" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-6 col-sm-3 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -115,7 +128,7 @@
                         <img src="img/portfolio/smarttrack.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-6 col-sm-3 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -340,6 +353,51 @@
                                 </li>
                                 <li>Video:
                                     <a href="https://youtu.be/-_XiPSVJOJc" target="_blank">Demo</a>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Network Services Management of a Small Company</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/reput.png" class="img-responsive img-centered" alt="">
+                            <p class="justifyMyText">The main goal of this work was to install and configure a series of services in a network of a small business.</p>
+                            <p>
+                                <ul class="justifyMyText" style="list-style-type:disc">
+                                    <li>Linux gateway that isolates the company network from the "public" network</li>
+                                    <li>A Web server running on port 80 which should present a page identifying the company and accessible from the outside network from the gateway external address</li>
+                                    <li>Company's network separated in 2 VLANs: separation of wireless clients from ethernet clients</li>
+                                    <li>Wireless Clients use RADIUS to authenticate</li>
+                                    <li>Dynamic IPs assignment (DHCP)</li>
+                                    <li>DNS setup to assign names to each machine connected</li>
+                                    <li>VoIP service to make calls inside the company (Ekiga)</li>
+                                    <li>SNMP agent on gateway to monitor the traffic coming from the outside network</li>
+                                </ul>
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>For:
+                                    <strong><a href="http://www.isep.ipp.pt" target="_blank">Instituto Superior de Engenharia do Porto</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>September 2016 - January 2017</strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
