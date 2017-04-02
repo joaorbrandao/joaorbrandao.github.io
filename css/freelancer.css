@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ /*
+ Standard Color: 18bc9c
+ */
+
 .justifyMyText {
     text-align: justify;
     text-justify: inter-word;
@@ -27,7 +31,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #dd5e2c;
 }
 
 h1,
@@ -68,7 +72,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #dd5e2c;
 }
 
 hr.star-primary {
@@ -87,7 +91,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #dd5e2c;
 }
 
 header .container {
@@ -186,7 +190,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #dd5e2c;
 }
 
 section.success a,
@@ -225,7 +229,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: #dd5e2c;/*rgba(24,188,156,.9);*/
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -279,7 +283,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #dd5e2c;
     background: #fff;
 }
 
@@ -332,7 +336,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #dd5e2c;
 }
 
 form .row:first-child .floating-label-form-group {
