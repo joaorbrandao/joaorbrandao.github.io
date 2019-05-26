@@ -12,9 +12,10 @@ let mix = require('laravel-mix');
  */
 
 mix.js('src/app.js', 'dist/')
-   .sass('src/app.scss', 'dist/')
-   .setPublicPath('dist')
-	.disableNotifications();
+   .postCss('src/app.css', 'dist/', [
+      require('tailwindcss'),
+   ])
+   .setPublicPath('dist');
 
 // Full API
 // mix.js(src, output);

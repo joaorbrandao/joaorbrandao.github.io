@@ -25,15 +25,13 @@
   "homepage": "https://github.com/joaorbrandao/joaorbrandao.github.io#readme",
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "jquery": "^3.3.1",
-    "laravel-mix": "^4.0.14",
+    "jquery": "^3.4.1",
+    "laravel-mix": "^4.0.15",
     "resolve-url-loader": "^2.3.1",
     "sass": "^1.17.2",
     "sass-loader": "^7.1.0",
+    "tailwindcss": "^1.0.1",
     "vue-template-compiler": "^2.6.8"
   },
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "popper": "^1.0.1"
-  }
+  "dependencies": {}
 }
