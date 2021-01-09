@@ -1,49 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
+
     <title>João Brandão</title>
 
     <link rel="stylesheet" href="dist/app.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
-<body class="bg-gray-200">
+
+<body>
 
     <!-- MAIN -->
-    <div class="md:flex justify-center bg-gray-200 rounded-lg p-6">
-        <img class="h-32 w-32 md:h-40 md:w-40 rounded-full mx-auto md:mx-0 md:mr-6 shadow-sm" src="img/profile.png">
+    <div class="md:flex m-4 justify-center rounded-lg p-6">
+        <!-- <img class="h-32 w-32 md:h-40 md:w-40 rounded mx-auto md:mx-0 md:mr-6 shadow-sm" src="img/profile.png"> -->
         <div class="text-center md:text-left">
             <div class="text-4xl text-gray-800">João Brandão</div>
-            <div class="text-2xl text-blue-600">Software Engineer @ Bosch</div>
-            <div class="text-lg text-gray-600">Born and raised in C. Laravel enthusiast.</div>
+            <div class="text-2xl text-blue-600">Software Engineer @ <a class="hover:text-blue-400"
+                    href="https://capitalise.com/" target="_blank">Capitalise.com</a></div>
+            <div class="text-lg text-gray-600">Born and raised in C. Backend Developer. Laravel enthusiast.</div>
             <div class="text-xl text-gray-800 mt-2">
-                <a href="https://github.com/joaorbrandao" class="fab fa-github"></a>
-                <a href="https://www.linkedin.com/in/joaorbrandao/" class="fab fa-linkedin"></a>
-                <a href="https://twitter.com/joaorbrandao" class="fab fa-twitter"></a>
+                <a href="https://github.com/joaorbrandao" class="hover:text-gray-600 fab fa-github"></a>
+                <a href="https://www.linkedin.com/in/joaorbrandao/" class="hover:text-gray-600 fab fa-linkedin"></a>
+                <a href="https://twitter.com/joaorbrandao" class="hover:text-gray-600 fab fa-twitter"></a>
             </div>
         </div>
     </div>
-    
-    <!-- About -->
-    <section id="about" class="md:flex bg-white rounded m-4 p-1 md:p-4 shadow-lg">
-        <div class="px-1 md:px-4 py-2 m-2 font-mono text-gray-800">
-            <div class="">> php artisan db:list users --username=joaorbrandao</div> 
-            <div class="text-gray-600 mt-4 ml-2 md:ml-4 mr-2 md:mr-4"> Loading users data ...</div>
-            <div class="text-gray-600 text-green-800 text-xs sm:text-base ml-2 md:ml-4 mr-2 md:mr-4"> 1/1 [============================] 100 %</div>
-            <div class="text-gray-600 mt-4 ml-2 md:ml-4 mr-2 md:mr-4"> Listing users info ...</div>
-            <div class="text-gray-700 text-justify ml-2 md:ml-4 mr-2 md:mr-4">
-                    I am a Software Engineer at <b class="text-gray-700">Bosch's Manufacturing Digital</b> team, working mainly as a <span class="text-blue-600 text-xl fab fa-php"></span> <span class="text-blue-600 text-xl fab fa-laravel"></span> and <span class="text-blue-600 text-xl fab fa-js-square"></span> developer. <br>
-                    I am able to work within a team and on my own. I love to learn new technologies and to exceed predefined goals.
-                    My background starts with a BSc degree in Electrical Engineering and Computers followed by a MSc degree in Telecommunications Engineering at <b><a  href="http://www.isep.ipp.pt" target="_blank">ISEP</a></b>. <br>
-                    I am a portuguese native speaker, but also fluent in english and I have some knowledge on french language. <br>
-                    I love to spend my spare time developing projects to my own, playing the guitar and playing tennis.
-            </div>
-        </div>
-    </section>
 
-    <script src="dist/app.js"></script>
+    <!-- First row -->
+    <div class="md:flex">
+        <section id="about" class="md:flex-1 bg-yellow-50 rounded m-4 p-1 md:p-4 shadow-lg">
+            <div class="px-1 md:px-4 py-2 m-2 text-gray-800">
+                <div class="text-2xl text-blue-800">🙋🏻‍♂️ Hey!</div><br>
+                <div class="text-gray-700 text-justify ml-2 md:ml-4 mr-2 md:mr-4">
+                    I am a Software Engineer at <b class="text-gray-700">Capitalise.com</b> team, working mainly as a
+                    <span class="text-blue-600 text-xl fab fa-php"></span> and <span
+                        class="text-blue-600 text-xl fab fa-node-js"></span> developer. <br><br>
+                    My background starts with a BSc degree in Electrical Engineering and Computers followed by a MSc
+                    degree in Telecommunications Engineering at <b><a href="http://www.isep.ipp.pt"
+                            target="_blank">ISEP</a></b>. <br><br>
+                    I am a portuguese native speaker, but also fluent in english. <br>
+                    I love to talk to people, develop software projects and play the guitar.
+                </div>
+            </div>
+        </section>
+
+        <section id="articles" class="md:flex-1 bg-green-100 rounded m-4 p-1 md:p-4 shadow-lg transform scale-95 rotate-6 translate-x-2 translate-y-15">
+            <div class="px-1 md:px-4 py-2 m-2 text-gray-800">
+                <div class="text-2xl text-blue-800">👨🏻‍💻 Writing about Tech</div><br>
+                <div class="text-gray-700 text-justify ml-2 md:ml-4 mr-2 md:mr-4">
+                    🔄 <a class="hover:text-gray-500 text-lg"
+                        href="https://www.notion.so/Self-reference-Laravel-Model-26a4f6826c1d4061a7f13f302ac738ef"
+                        target="_blank">Self-reference Laravel Model</a>
+                    <br>
+                    💅 <a class="hover:text-gray-500 text-lg"
+                        href="https://www.notion.so/Automatically-Format-PHP-Code-5d6e9631a03e489e9884bb8917d4b18b"
+                        target="_blank">Automatically Format PHP Code</a>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
+
 </html>
