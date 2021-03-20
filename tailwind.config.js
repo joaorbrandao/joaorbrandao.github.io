@@ -2,7 +2,11 @@ module.exports = {
   purge: [],
   darkMode: 'media', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'yellow-dark': '#9e8c00'
+      }
+    },
     fontFamily: {
       'kalam': 'Kalam'
     }
