@@ -1,4 +1,4 @@
-# 🥋 Happy Teams with Coding Dojos
+# Happy Teams with Coding Dojos
 
 Building and powering up software development teams is not just about hiring good developers. It’s also about keeping them happy, challenged and engaged.
 

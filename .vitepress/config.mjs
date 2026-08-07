@@ -18,7 +18,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
-      { text: 'Posts', link: '/posts/' },
+      { text: 'Sharing is Caring', link: '/posts/' },
     ],
 
     sidebar: {
@@ -26,6 +26,7 @@ export default defineConfig({
         {
           text: 'Posts',
           items: [
+            { text: 'Moved My Notes to Git, and I like it!', link: '/posts/moved-my-notes-to-git' },
             { text: 'Happy Teams with Coding Dojos', link: '/posts/happy-teams-with-coding-dojos' },
             { text: 'Given, When, Then', link: '/posts/given-when-then' }
         ],

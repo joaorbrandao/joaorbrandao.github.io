@@ -6,11 +6,11 @@ hero:
   text: Software Engineer
   tagline: Architecture • Backend • Kotlin
   actions:
-    - theme: brand
+    - theme: alt
       text: About me
       link: /about
-    - theme: alt
-      text: Posts
+    - theme: brand
+      text: Sharing is Caring
       link: /posts/
 
 features:

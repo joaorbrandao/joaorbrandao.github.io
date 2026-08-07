@@ -1,4 +1,4 @@
-# 🧪 Given, When, Then
+# Given, When, Then
 
 In this post, let’s check Given, When, Then. A sequence of words that not only helped me to improve my way of thinking about coding but also has been helping me in my personal life.
 
