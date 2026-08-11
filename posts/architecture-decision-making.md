@@ -28,7 +28,7 @@ There are two principles behind the framework:
 
 The framework is intentionally lightweight. It is meant to fit into a design review, a planning session, or an interview, not to create bureaucracy.
 
-For the full reference, see the [Architecture Decision-Making Framework](/sharing-is-caring/frameworks/architecture-decision-making-framework).
+For the full reference, see the [Architecture Decision-Making Framework](/sharing-is-caring/architecture/architecture-decision-making-framework).
 
 ## When structured decision-making matters
 
@@ -118,4 +118,4 @@ At your next design review, pause before the team picks a favorite option. Ask:
 
 That single question, asked consistently, will improve the quality of your technical decisions more than any specific tool.
 
-For the full framework and reusable templates, see the [Architecture Decision-Making Framework](/sharing-is-caring/frameworks/architecture-decision-making-framework).
+For the full framework and reusable templates, see the [Architecture Decision-Making Framework](/sharing-is-caring/architecture/architecture-decision-making-framework).
