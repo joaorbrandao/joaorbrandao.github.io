@@ -9,15 +9,15 @@ hero:
     - theme: alt
       text: About me
       link: /about
+    - theme: alt
+      text: Posts
+      link: /posts/
     - theme: brand
       text: Sharing is Caring
-      link: /posts/
+      link: /sharing-is-caring/
 
 features:
-  - title: Pragmatic Engineer 🧘‍♂️
-    details: Motivated by great tech products that people love to use, with a focus on clean and well-tested code.
-  - title: Team Player 🤝
-    details: Detail-oriented, goal-driven, and passionate about helping team members grow.
-  - title: Tech Writer ✍️
-    details: Sharing thoughts on engineering practices, Kotlin, and building happy, effective teams.
+  - title: "✍️ Latest Post: <u>Architecture Decision Making</u>"
+    details: A structured approach to making defensible technical decisions.
+    link: /posts/architecture-decision-making
 ---

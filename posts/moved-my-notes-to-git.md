@@ -31,7 +31,7 @@ That’s it. No proprietary sync. No subscriptions for features you don’t need
 
 The repository root folder and folder-based separation between personal and work. No special configuration required.
 
-File and folder naming convention: **lowercase words separated by dashes**. No spaces. This matters more than it sounds — you’ll eventually `cd` into these folders or `grep` through them from the terminal, and spaces are a tax you don’t need to pay.
+File and folder naming convention: **lowercase words separated by dashes**. No spaces. This matters more than it sounds - you’ll eventually `cd` into these folders or `grep` through them from the terminal, and spaces are a tax you don’t need to pay.
 
 ```text
 notes/
