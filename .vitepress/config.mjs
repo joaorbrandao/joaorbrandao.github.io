@@ -36,8 +36,17 @@ const sidebarSharingIsCaringConfig = {
       text: 'Architecture',
       items: [
         { text: 'Architecture Decision-Making Framework', link: '/sharing-is-caring/architecture/architecture-decision-making-framework' },
-        { text: 'ADR Template', link: '/sharing-is-caring/architecture/adr-template.md' },
+        { text: 'ADR Template', link: '/sharing-is-caring/architecture/adr-template' },
       ],
+    },
+    {
+      text: 'Technology Strategy',
+      items: [
+        { text: 'Build vs Buy vs Borrow Framework', link: '/sharing-is-caring/technology-strategy/build-vs-buy-vs-borrow-framework' },
+        { text: 'Tech Radar Playbook', link: '/sharing-is-caring/technology-strategy/tech-radar-playbook' },
+        { text: 'Technical Debt Management Framework', link: '/sharing-is-caring/technology-strategy/technical-debt-management-framework' },
+        { text: 'Migration Strategy Playbook', link: '/sharing-is-caring/technology-strategy/migration-strategy-playbook' },
+      ]
     },
   ],
 };
