@@ -7,9 +7,6 @@ hero:
   tagline: Architecture • Backend • Kotlin
   actions:
     - theme: alt
-      text: About me
-      link: /about
-    - theme: alt
       text: Posts
       link: /posts/
     - theme: brand
