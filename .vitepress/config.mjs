@@ -64,6 +64,7 @@ const socialLinksConfig = [
 export default defineConfig({
   title: 'João Brandão',
   description: 'Senior Software Engineer exploring tech',
+  head: [['link', { rel: 'icon', type: 'image/jpeg', href: '/favicon.jpg' }]],
   cleanUrls: true,
   srcExclude: ['README.md'],
 
